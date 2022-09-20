@@ -30,7 +30,6 @@ parsing이 제대로 이루어지지 않아, 팀원들은 local의 목록 구분
 파일들을 처리할 수 있도록 합니다.
 
 <br>
-<br>
 
 ## 🤔 Trouble Shooting 💥
 <details>
@@ -41,4 +40,13 @@ parsing이 제대로 이루어지지 않아, 팀원들은 local의 목록 구분
   &nbsp;&nbsp;&nbsp;&nbsp; <b>원인:</b> 오픈 API를 사용하여 데이터를 가져와 저장할려고 했지만 1000건의 데이터당 10초 60,000건의 데이터에는 1시간이 소유되었다. 
   <br>
   &nbsp;&nbsp;&nbsp;&nbsp; <b>해결방안:</b> 오픈 API 대신 도서관 325개관의 csv파일을 전부 다운받아 DB에 저장하였다.
+</details>
+<details>
+    <summary>
+        <b>csv파일을 받을때 데이터 형식(한글)이 깨진다.</b>
+    </summary>
+<br>
+  &nbsp;&nbsp;&nbsp;&nbsp; <b>원인:</b> 엑셀에서 csv로 저장시에 기본 설정 인코딩이 유니코드로만 저장된다. 
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp; <b>해결방안:</b> csv파일을 엑셀로 대신에 메모장으로 열어주고 다른 이름으로 저장을 이용하여 파일 인코딩 형식을 UTF-8로 변경하고 저장하였다
 </details>
