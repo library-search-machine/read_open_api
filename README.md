@@ -1,7 +1,14 @@
 # read_open_api
 검색엔진을 만들기 위한 수천만건의 데이터를 어떻게 하면 효율적으로 DB에 넣을수 있는지 그 방법을 
 모색합니다.😀
+<div align=center><h1>📚 STACKS</h1></div>
 
+<div align=center> 
+ <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+ <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+ <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+ <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+</div>
 <br>
 <br>
 
